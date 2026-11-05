@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated vector database
+vectorstore/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+data/
